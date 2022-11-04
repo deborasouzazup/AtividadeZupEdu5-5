@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E87F10229152F1D0018F3E5 /* DrinkGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E87F10129152F1D0018F3E5 /* DrinkGame.swift */; };
 		58C4966B27DD070300DCA879 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C4966A27DD070300DCA879 /* AppDelegate.swift */; };
 		58C4966D27DD070300DCA879 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C4966C27DD070300DCA879 /* SceneDelegate.swift */; };
 		58C4966F27DD070300DCA879 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C4966E27DD070300DCA879 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E87F10129152F1D0018F3E5 /* DrinkGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkGame.swift; sourceTree = "<group>"; };
 		58C4966727DD070300DCA879 /* LearningTask-5.5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LearningTask-5.5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58C4966A27DD070300DCA879 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58C4966C27DD070300DCA879 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E87F10029152F0D0018F3E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E87F10129152F1D0018F3E5 /* DrinkGame.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		58C4965E27DD070300DCA879 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		58C4966927DD070300DCA879 /* LearningTask-5.5 */ = {
 			isa = PBXGroup;
 			children = (
+				2E87F10029152F0D0018F3E5 /* Model */,
 				58C4966A27DD070300DCA879 /* AppDelegate.swift */,
 				58C4966C27DD070300DCA879 /* SceneDelegate.swift */,
 				58C4966E27DD070300DCA879 /* ViewController.swift */,
@@ -144,6 +155,7 @@
 				58C4966F27DD070300DCA879 /* ViewController.swift in Sources */,
 				58C4966B27DD070300DCA879 /* AppDelegate.swift in Sources */,
 				58C4966D27DD070300DCA879 /* SceneDelegate.swift in Sources */,
+				2E87F10229152F1D0018F3E5 /* DrinkGame.swift in Sources */,
 				58C4967F27DD097A00DCA879 /* BackgroundColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
