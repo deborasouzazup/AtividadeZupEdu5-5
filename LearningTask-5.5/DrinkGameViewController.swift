@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class DrinkGameViewController: UIViewController {
 
     @IBOutlet weak var drinkSorteadaLabel: UILabel!
     @IBOutlet weak var drinkAnteriorLabel: UILabel!
